@@ -1,0 +1,329 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+
+
+/* Banner Styling Star */
+
+.adopt-a-pet-banner {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-image: url(/Assets/adopt-a-pet-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white; 
+  font-size: xx-large; 
+  text-align: center; 
+}
+
+.adopt-a-pet-banner-text {
+  z-index: 1;
+}
+
+/* Banner Styling End */
+
+/* Banner Styling End */
+
+.adopt-a-pet-main-sec {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.adopt-a-pet {
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.adopt-a-pet-heading {
+  text-align: center;
+  margin: 4.3rem 0 2.5rem 0;
+  font-size: xx-large;
+  color: #285A84;
+  font-weight: bolder;
+}
+
+.adopt-a-pet-img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.8rem;
+}
+
+.adopt-a-pet-img-div {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #285A84;
+  transition: opacity 0.4s ease-in-out;
+  position: relative;
+}
+
+.adopt-a-pet-img-div:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.adopt-a-pet-img {
+  opacity: 0.7;
+  width: 18.75rem;
+  height: 21.8rem;
+}
+
+.img-txt {
+  padding: 5px;
+  width: 80%;
+  text-align: center;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  background-color: #285A84 !important;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px 0 rgba(40, 90, 132, 0.8);
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  transform: translate(0, 0);
+
+}
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+  margin: 7rem auto 0 auto;
+
+}
+
+.description-text{
+  flex-basis: 65%;
+}
+.description-text h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+.description-text>h1 {
+  font-size: 32px;
+}
+
+.description-text {
+  padding: 20px;
+  line-height: 25px;
+
+}
+
+.description-para {
+  margin-top: 10px;
+}
+
+.description-container p,
+h2 {
+  color: gray;
+}
+
+.description-icons {
+  padding: 1rem;
+}
+
+.icon-for-discription {
+  background-color: #F5F5DC;
+  padding: 15px;
+  margin: 8px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease;
+}
+
+.icon-for-discription:hover {
+  color: #964B00;
+}
+
+.how-to-adopt-pet {
+  width: 100%;
+  margin: 10rem 0;
+}
+
+.how-to-adopt-pet-heading {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #285A84;
+}
+
+.cat-for-homepage-bottom-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 15px;
+  margin-bottom: 4.3rem;
+  background-color: #F5F5DC;
+}
+
+.dog-for-homepage-bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 15px;
+  margin-bottom: 4.3rem;
+  background-color: #F5F5DC;
+}
+
+.rabbit-for-homepage-bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 15px;
+  background-color: #F5F5DC;
+}
+
+.how-to-adopt-pet img {
+  width: 40vw;
+  height: 25rem;
+  border-radius: 15%;
+}
+
+.step-1,
+.step-2,
+.step-3 {
+  padding: 2.9rem;
+  line-height: 2.5rem;
+  color: gray;
+}
+
+.steps-heading {
+  margin-bottom: 1rem;
+  color: #964B00;
+}
+
+
+
+
+@media (max-width: 480px){
+  .adopt-a-pet-main-sec {
+    width: 95vw;
+  }
+
+  /* .adopt-a-pet-img{
+    width: 15rem;
+    height: 19rem;
+  } */
+
+  .description-container{
+    margin: 5rem 0 0 0;
+  }
+  .description-text{
+    flex-basis: 100%;
+  }
+
+  .description-text{
+    padding: 1rem;
+  }
+
+  .cat-for-homepage-bottom-container,
+  .dog-for-homepage-bottom-container,
+  .rabbit-for-homepage-bottom-container{
+    flex-direction: column;
+  }
+
+
+  .how-to-adopt-pet img{
+    padding: 0.7rem;
+    width: 95%;
+    height: 50%;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px){
+  .adopt-a-pet-main-sec {
+    width: 95vw;
+  }
+
+
+  .description-container{
+    margin: 5rem 0 0 0;
+    flex-direction: row;
+  }
+  .description-text{
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+
+
+
+
+  .cat-for-homepage-bottom-container,
+  .dog-for-homepage-bottom-container,
+  .rabbit-for-homepage-bottom-container{
+    flex-direction: column;
+  }
+
+
+  .how-to-adopt-pet img{
+    padding: 1rem;
+    width: 95%;
+    height: 50%;
+  }
+}
+
+
+
+
+@media (max-width: 992px){
+  .adopt-a-pet-main-sec {
+    width: 90vw;
+  }
+
+
+  .description-container{
+    margin: 5rem 0 0 0;
+    flex-direction: row;
+  }
+  .description-text{
+    flex-basis: 65%;
+    padding: 1rem;
+  }
+
+
+
+
+  /* .cat-for-homepage-bottom-container,
+  .dog-for-homepage-bottom-container,
+  .rabbit-for-homepage-bottom-container{
+    flex-direction: column;
+  }
+
+
+  .how-to-adopt-pet img{
+    padding: 1.4rem;
+    width: 95%;
+    height: 50%;
+  } */
+}

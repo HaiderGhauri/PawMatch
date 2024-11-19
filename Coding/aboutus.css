@@ -1,0 +1,170 @@
+
+* {
+    margin: 0; padding: 0;
+    font-family: arial;
+}
+
+
+/* Banner Styling Star */
+
+.aboutus-banner {
+  width: 100%;
+  height: 31rem;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-image: url(/Assets/about-us-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white; 
+  font-size: xx-large; 
+  text-align: center; 
+}
+
+.aboutus-banner-text {
+  z-index: 1;
+}
+
+
+/* Banner Styling End */
+
+
+/* Main Scetion Styling Start */
+.aboutus-main-sec {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Main Section First Section Styling Start */
+
+
+.aboutus-first-sec {
+  margin: 8rem 0;
+}
+
+.aboutus-first-div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutus-first-div h1 {
+  color: #285A84;
+  margin: 1rem 0;
+}
+
+.aboutus-first-div h2 {
+  color: #964B00;
+  margin: 1rem 0;
+}
+
+.aboutus-txt-div p {
+  color: gray;
+  line-height: 1.5rem;
+}
+
+.aboutus-txt-div a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #964B00;
+}
+
+.aboutus-txt-div span a {
+  color: #285A84;
+}
+
+.aboutus-second-div{
+  margin-left: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.adp{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aboutus-second-div h1 {
+  justify-content: center;
+  display: flex;
+  color: #285A84;
+  margin: 1rem 0;
+}
+.h3{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus-second-div h3 {
+  color: gray;
+  margin: 1rem 0;
+}
+
+.aboutus-second-div ul li {
+  list-style: none;
+  color: gray;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.aboutus-second-div ul li i {
+  color: #285A84;
+  padding: 1rem;
+  background-color: #F5F5DC;
+  border-radius: 50px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutus-second-div ul a {
+  text-decoration: none;
+}
+
+.aboutus-second-div ul li:hover {
+  color: #964B00;
+}
+
+.aboutus-second-div svg {
+  width: 1.125rem;
+  height: 1rem;
+  fill: #285A84;
+  padding: 1rem;
+  background-color: #F5F5DC;
+  border-radius: 50px;
+  margin: 1rem 1rem 1rem 2.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutus-second-div svg,
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Main Section Styling End */
+
+
+@media (max-width: 480px){
+  .aboutus-main-sec{
+    width: 95vw;
+  }
+  .aboutus-first-sec {
+    margin: 5rem 0;
+  }
+
+  .aboutus-second-div{
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .aboutus-second-div{
+    margin-left: 45vw;
+  }
+}
