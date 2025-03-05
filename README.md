@@ -29,5 +29,4 @@ We would love to hear your thoughts and suggestions to improve PawMatch. Please 
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out:
-- **Haider Ghauri**: [haideralikhanh70@gmail.com]
 - **GitHub**: (https://github.com/HaiderGhauri))
